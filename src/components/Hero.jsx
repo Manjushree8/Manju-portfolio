@@ -12,15 +12,17 @@ const Hero = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
       >
-        <h2 className="text-2xl text-gray-600 dark:text-gray-400">Hey, I’m</h2>
-        <h1 className="text-5xl font-extrabold text-blue-800 dark:text-blue-400">Manjushree</h1>
-        <h3 className="text-2xl font-medium text-gray-700 dark:text-white">Full Stack Web Developer</h3>
+   <h2 className="text-2xl text-gray-700 dark:text-black ">Hey, I’m</h2>
 
-        <p className="text-base text-gray-600 dark:text-gray-100 text-center md:text-left max-w-md leading-relaxed">
-          I'm a code-loving creative who crafts slick, scalable websites with clean logic and playful design.
-          Currently building fun, functional apps with <strong>React</strong>, <strong>Tailwind</strong> & <strong>Node</strong>.
-          Always down to learn, grow, and deploy!
-        </p>
+<h1 className="text-5xl font-extrabold text-blue-800 dark:text-blue-400">Manjushree</h1>
+
+<h3 className="text-4xl text-gray-800 dark:text-black font-bold">Full Stack Web Developer</h3>
+<p className="text-base text-black text-center md:text-left max-w-md leading-relaxed">
+  I'm a code-loving creative who crafts slick, scalable websites with clean logic and playful design.
+  Currently building fun, functional apps with <strong>React</strong>, <strong>Tailwind</strong> & <strong>Node</strong>.
+  Always down to learn, grow, and deploy!
+</p>
+
 
         {/* Buttons */}
         <div className="mt-6 flex flex-col sm:flex-row sm:justify-center md:justify-start items-center gap-4">
