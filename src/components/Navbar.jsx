@@ -19,10 +19,11 @@ const Navbar = () => {
     <nav className="w-full fixed top-0 left-0 z-50 bg-white dark:bg-gray-900 shadow-md">
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-4 flex items-center justify-between">
         
-        {/* Brand / Logo */}
-        <a href="#" className="text-2xl font-bold text-blue-600">
-          Manju.dev
-        </a>
+  <a href="#" className="flex items-center gap-3 text-2xl font-bold text-blue-600">
+  <img src="/logo.png" alt="Logo" className="w-12 h-12 rounded-full" />
+  Manju.dev
+</a>
+
 
         {/* Desktop Nav Links */}
         <ul className="hidden md:flex gap-8 font-medium text-gray-700 dark:text-white">
