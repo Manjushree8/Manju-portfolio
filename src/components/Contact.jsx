@@ -32,17 +32,20 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
         className="text-3xl font-bold text-blue-600 mb-6"
       >
-        Let’s Connect 
+        Let’s Build Something Awesome
       </motion.h2>
 
       <motion.p
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.7 }}
-        className="text-lg text-gray-700 dark:text-gray-300 mb-10 max-w-xl mx-auto"
+        className="text-lg text-gray-700 dark:text-gray-300 mb-10 max-w-xl mx-auto leading-relaxed"
       >
-        Have a cool idea? Want to collab? Or just wanna say hi? I’m always down
-        to connect and chat about code, design, or your favorite playlist.
+        Open to job opportunities, cool projects, or collaborations that
+        challenge and excite me. If you're hiring, building, or just curious, let's connect!
+        <br></br> 
+        Whether you have a project in mind or just want to chat about tech, design, or anything in between,
+        I’d genuinely love to hear from you!
       </motion.p>
 
       <div className="flex flex-col items-center gap-6">

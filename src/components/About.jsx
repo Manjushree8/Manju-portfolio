@@ -16,7 +16,7 @@ const About = () => {
         
 <h2 className="text-3xl font-bold text-blue-600 mb-4 text-center md:text-left">About Me</h2>
 <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed space-y-4">
-  Hey! I’m <span className="font-semibold text-blue-500">Manjushree</span> — someone who finds joy in turning caffeine and code into clean, beautiful websites. I’m a full stack web developer who vibes with creative UIs, smooth animations, and logic that just clicks.
+  Hey! I’m <span className="font-semibold text-blue-500">Manjushree</span> — a full stack web developer actively seeking exciting job opportunities and creative collaborations. I find joy in turning caffeine and code into clean, beautiful websites. I vibe with creative UIs, smooth animations, and logic that just clicks.
 
   <br /><br />
   I love working with <strong>React</strong>, <strong>Tailwind CSS</strong>, <strong>JavaScript</strong>, <strong>Node.js</strong>, and <strong>MongoDB</strong>. Whether it’s a Netflix clone, weather app, or a task manager — I build with a balance of fun and function.

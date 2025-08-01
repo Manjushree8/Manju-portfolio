@@ -10,6 +10,7 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", href: "#" },
     { name: "About", href: "#about" },
+    { name: "Skills", href: "#skills" }, // ✅ Added Skills
     { name: "Projects", href: "#projects" },
     { name: "Contact", href: "#contact" },
   ];
@@ -17,7 +18,7 @@ const Navbar = () => {
   return (
     <nav className="w-full fixed top-0 left-0 z-50 bg-white dark:bg-gray-900 shadow-md">
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-4 flex items-center justify-between">
-
+        
         {/* Brand / Logo */}
         <a href="#" className="text-2xl font-bold text-blue-600">
           Manju.dev
@@ -38,7 +39,10 @@ const Navbar = () => {
         </ul>
 
         {/* Hamburger Icon */}
-        <div className="md:hidden text-2xl text-gray-700 dark:text-white cursor-pointer" onClick={toggleMenu}>
+        <div
+          className="md:hidden text-2xl text-gray-700 dark:text-white cursor-pointer"
+          onClick={toggleMenu}
+        >
           {menuOpen ? <FiX /> : <FiMenu />}
         </div>
       </div>

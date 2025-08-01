@@ -48,7 +48,7 @@ const Skills = () => {
         transition={{ duration: 0.5 }}
         className="text-3xl font-bold text-blue-600 mb-10"
       >
-        Tech Stack & Tools 🧠
+        Tech Stack & Tools 
       </motion.h2>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
