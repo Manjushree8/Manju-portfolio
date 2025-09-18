@@ -1,4 +1,14 @@
 export const projects = [
+{
+  title: "BloomCraft – Garlands & Bouquets Store",
+  description: "A full-stack MERN e-commerce platform designed for selling garlands and bouquets online. Features include product browsing, cart management, secure checkout, and email order confirmations using Nodemailer.",
+  image: "/images/bloomcraft.png",
+  live: "https://bloommcraft.vercel.app/",
+  code: "https://github.com/Manjushree8/bloommcraft.git",
+  tech: ["MongoDB", "Express", "React", "Node.js", "Tailwind", "Nodemailer"],
+},
+
+
   {
     title: "SkyCheck – Weather App",
     description: "A real-time weather app using OpenWeatherMap API with a clean, animated UI.",
