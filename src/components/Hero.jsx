@@ -27,7 +27,7 @@ const Hero = () => {
         {/* Buttons */}
         <div className="mt-6 flex flex-col sm:flex-row sm:justify-center md:justify-start items-center gap-4">
           <a
-            href="https://drive.google.com/file/d/1LDLtxgznVou_BsitptHM2Qlzrd02yg8D/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1VeLWZOdgS-6D-Ttm1rJhAZqK5w-GsgH6/view?usp=drivesdk"
             target="_blank"
             className="group px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-semibold rounded-lg shadow-md hover:scale-105 transition-all duration-300 inline-flex items-center gap-2"
           >
